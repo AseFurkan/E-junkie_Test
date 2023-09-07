@@ -1,14 +1,11 @@
 package US2;
-
 import Utility.BaseDriver;
 import Utility.MyFunc;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 public class US2 extends BaseDriver {
-
     @Test
     public void test1(){
         driver.get("https://e-junkie.com/wiki/demo/");
@@ -33,5 +30,9 @@ public class US2 extends BaseDriver {
         Assert.assertTrue(invalidEmail.getText().contains("Invalid Email"));
 
         BekleVeKapat();
+
+
+
+
     }
 }
